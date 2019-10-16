@@ -52,7 +52,7 @@ const Dashboard = () => {
             strike={strikePoint} 
             />
 
-            <h1>Game Dashboard</h1>
+            <h1>Game Dashboard's</h1>
 
             <div>
                 <button onClick={playerStrike}>Strike</button>

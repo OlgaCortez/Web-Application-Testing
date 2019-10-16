@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "web-application-testing",
+    "builds": [{ "src": "web-application-testing/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "web-application-testing/$1" }
+    ]
+}
